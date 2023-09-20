@@ -1,15 +1,16 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11831055&assignment_repo_type=AssignmentRepo)
-# Nome do projeto
+# Dividir conta em boteco e bares 
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+O objetivo do projeto é buscar um meio de facilitar das pessoas na divisão de contas nos botecos, bares e restaurantes. 
 
 ## Alunos integrantes da equipe
 
-* Lucas Vaz
+* Lucas Vaz Fernandes
 * Victor Arrighi 
-* Marcelo
-* Iara Maira Alves
-* Nome completo do aluno 4
+* Marcelo Lucas Pereira Filho
+* Iara Maira Alves da Silva
+* Aisha Camille Rodrigues da Silva
+* Vitor
 
 ## Professores responsáveis
 
