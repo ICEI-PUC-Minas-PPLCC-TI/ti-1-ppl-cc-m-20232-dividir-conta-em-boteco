@@ -10,7 +10,7 @@ O objetivo do projeto é buscar um meio de facilitar das pessoas na divisão de 
 * Marcelo Lucas Pereira Filho
 * Iara Maira Alves da Silva
 * Aisha Camille Rodrigues da Silva
-* Vitor
+* Victor Leroy
 
 ## Professores responsáveis
 
