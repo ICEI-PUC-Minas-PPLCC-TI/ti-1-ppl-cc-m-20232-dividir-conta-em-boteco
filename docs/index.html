@@ -141,7 +141,6 @@ Pensando nisso, o projeto “Saideira” vêm para facilitar o momento de divis�
               <h5>Objetivos
               <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseObjetivos">Info</button></h5>
               <div class="alert alert-warning collapse" role="alert" id="collapseObjetivos">
-                Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
               </div>
               <p>O objetivo geral do projeto é facilitar a divisão e pagamento de contas em bares e botecos. De forma mais específica, o que se pretende com a criação desse software é impedir que as pessoas saiam prejudicadas após pagar as contas em estabelecimentos desse tipo. Além disso, uma das intenções do projeto é fazer com que o processo de divisão de contas seja mais rápido quando o usuário estiver em grupo, e cada item seja corretamente atribuído a quem o consumiu. Por fim, o projeto visa também melhorar as informações de consumo ao usuário, para que possa salvar a quantidade e valor daquilo que está consumindo em tempo real</p>
             </section>
@@ -150,7 +149,7 @@ Pensando nisso, o projeto “Saideira” vêm para facilitar o momento de divis�
               <h5>Justificativa
               <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseJustificativa">Info</button></h5>
               <div class="alert alert-warning collapse" role="alert" id="collapseJustificativa">
-                Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software. O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+                
               </div>
               <p>Como frequentadores de bares e botecos, os desenvolvedores do projeto sempre perceberam uma dificuldade no momento da divisão de contas da mesa, por vários motivos que pareciam ser facilmente sanáveis. Além disso, percebemos uma lacuna nessa questão, não identificando soluções boas/fáceis para os problemas citados.</p>
             </section>
@@ -159,8 +158,7 @@ Pensando nisso, o projeto “Saideira” vêm para facilitar o momento de divis�
               <h5>Público-alvo
               <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapsePublico">Info</button></h5>
               <div class="alert alert-warning collapse" role="alert" id="collapsePublico">
-                Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-                Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
+                
               </div>
               <p>Conforme já citado anteriormente, os problemas a serem solucionados com o projeto “Saideira” são todos relacionados à mesa de bares e botecos. Dessa forma, entende-se que o público-alvo a ser abrangido pelo software são os frequentadores de bares e botecos, principalmente aqueles que costumam frequentá-los em grupo.
 
@@ -230,19 +228,19 @@ De forma mais específica, pode-se dizer que o usuário médio do software terá
                           <td>Não pagar a mais</td>
                       </tr>
                       <tr>
-                          <th scope="row">Administrador</th>
-                          <td>Alterar permissões</td>
-                          <td>Permitir que possam administrar contas</td>
+                          <th scope="row">Usuário do sistema</th>
+                          <td>Consumo detalhado de cada um</td>
+                          <td>Saber quanto está consumindo</td>
                       </tr>
                       <tr>
                           <th scope="row">Usuário do sistema</th>
-                          <td>Alterar permissões</td>
-                          <td>Permitir que possam administrar contas</td>
+                          <td>Facilidade na divisão de contas</td>
+                          <td>Não ter que dividir tudo manualmente</td>
                       </tr>
                       <tr>
                           <th scope="row">Usuário do sistema</th>
-                          <td>Alterar permissões</td>
-                          <td>Permitir que possam administrar contas</td>
+                          <td>Agilizar a divisão de contas</td>
+                          <td>Ir embora para casa</td>
                       </tr>
                   </tbody>
                 </table>
@@ -277,13 +275,43 @@ De forma mais específica, pode-se dizer que o usuário médio do software terá
                   <tbody>
                       <tr>
                           <th scope="row">RF-001</th>
-                          <td>Permitir que o usuário cadastre tarefas<span class="exemplo">EXEMPLO</span></td>
+                          <td>Possibilidade de adicionar pessoas e produtos</td>
                           <td>ALTA</td>
                       </tr>
                       <tr>
                           <th scope="row">RF-002</th>
-                          <td>Emitir um relatório de tarefas no mês<span class="exemplo">EXEMPLO</span></td>
+                          <td>Tela inicial interativa para inclusão da conta do dia</td>
+                          <td>ALTA</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">RF-003</th>
+                          <td>Possibilidade de aumentar a quantidade consumida por remessa</td>
                           <td>MÉDIA</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">RF-004</th>
+                          <td>Gerar um relatório final detalhado</td>
+                          <td>ALTA</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">RF-005</th>
+                          <td>Mostrar o historico de consumo do usuario</td>
+                          <td>BAIXA</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">RF-006</th>
+                          <td>Mostrar o valor da conta em tempo real</td>
+                          <td>MÉDIA</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">RF-007</th>
+                          <td>Sugestões de consumo</td>
+                          <td>MÉDIA</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">RF-008</th>
+                          <td>Poder adicionar 10% e descontos que o bar oferece na conta</td>
+                          <td>MÉDIA</td>  
                       </tr>
                   </tbody>
                 </table>
@@ -300,13 +328,23 @@ De forma mais específica, pode-se dizer que o usuário médio do software terá
                   <tbody>
                       <tr>
                           <th scope="row">RNF-001</th>
-                          <td>O sistema deve ser responsivo para rodar em um dispositivos móvel<span class="exemplo">EXEMPLO</span></td>
-                          <td>MÉDIA</td>
+                          <td>Agilidade na utilização do site</td>
+                          <td>ALTA</td>
                       </tr>
                       <tr>
                           <th scope="row">RNF-002</th>
-                          <td>Deve processar requisições do usuário em no máximo 3s<span class="exemplo">EXEMPLO</span></td>
-                          <td>BAIXA</td>
+                          <td>Funcionalidade em dispositivos móveis</td>
+                          <td>ALTA</td>
+                     </tr>
+                      <tr>
+                          <th scope="row">RNF-003</th>
+                          <td>Suporte rápido ao usuário</td>
+                          <td>MÉDIA</td>
+                     </tr>
+                      <tr>
+                          <th scope="row">RNF-004</th>
+                          <td>Integração com donos de bar</td>
+                          <td>BAIXA</td>   
                       </tr>
                   </tbody>
                 </table>
