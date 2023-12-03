@@ -436,8 +436,8 @@ De forma mais específica, pode-se dizer que o usuário médio do software terá
                     </tr>
                     <tr>
                         <td>Hospedagem do site</td>
-                        <td>Heroku</td>
-                        <td><a href="https://XXXXXXX.herokuapp.com">https://XXXXXXX.herokuapp.com</a><span class="exemplo">EXEMPLO</span></td>
+                        <td>Replit</td>
+                        <td><a href="https://replit.com/@LucasVaz13/saideira">https://replit.com/@LucasVaz13/saideira</</td>
                     </tr>
                     <tr>
                         <td>Protótipo Interativo</td>
@@ -511,17 +511,41 @@ De forma mais específica, pode-se dizer que o usuário médio do software terá
               </div>
 
               <section>
-                <h5>Funcionalidade 1 - Cadastro de Contatos<span class="exemplo">EXEMPLO</span></h5>
-                <p>Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema</p>
+                <h5>Funcionalidade 1 - Cadastro de Pessoas<span/span></h5>
+                <p>Permite a inclusão, leitura, alteração e exclusão de pessoas para o sistema</p>
                 <ul class="list-unstyled">
-                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_contatos">Contatos</a></li>
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_contatos">Pessoas</a></li>
                   <li><strong>Instruções de acesso: </strong><ul>
-                    <li>Abra o site e efetue o login</li>
-                    <li>Acesse o menu principal e escolha a opção Cadastros </li>
-                    <li>Em seguida, escolha a opção Contatos</li>
+                    <li>Abra o site</li>
+                    <li>Acesse o menu principal e escolha a opção Abrir Nova Comanda</li>
+                    <li>Em seguida, adicione o nome da pessoa</li>
+                    
+                    </section>
+                    
+                    <h5>Funcionalidade 2 - Cadastro de Produtos<span/span></h5>
+                <p>Permite a inclusão, alteração e exclusão de produtos para o sistema</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_contatos">Produtos</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Digite o nome do produto</li>
+                    <li>Selecione a quantidade e valor do produto escolhido</li>
+                    <li>Salve o produto descrito</li>
+                    <li>Selecione a(s) pessoa(s) que irá/irão consumir o produto</li>
+                    <li>Continue para a próxima página clicando 'Continuar'</li>
+
+                    </section>
+                    
+                    <h5>Funcionalidade 3 - Comanda<span/span></h5>
+                <p>Permite a edição da comanda virtual que foi criada a partir das funcionalidades anteriores. Permite também criar uma nova comanda.</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_contatos">Comanda</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Clique para adicionar um novo item se quiser adicionar mais um produto para a divisão.</li>
+                    <li>Clique "Abrir nova Comanda" se quiser criar uma nova comanda</li>
+                    <li>Clique "Adicionar nova Pessoa" se quiser adicionar mais uma pessoa para participar da divisão da conta</li>
+                    <li>Clique em "Editar" se quiser editar os produtos já adicionados</li>
                   </ul></li>
                 </ul>
-                <p class="text-center"><img class="img-fluid" src="assets/images/exemplo-funcionalidade.png" alt="Tela Cadastro de Contatos"></p>
               </section>
             </section>
 
@@ -537,8 +561,8 @@ De forma mais específica, pode-se dizer que o usuário médio do software terá
               </div>
 
               <section>
-                <h5>Estrutura de Dados - Contatos<span class="exemplo">EXEMPLO</span></h5>
-                <p>Contatos da aplicação</p>
+                <h5>Estrutura de Dados - Pessoas<span/span></h5>
+                <p>Pessoas da aplicação</p>
                 <pre>
                   {
                     "id": 1,
@@ -553,8 +577,8 @@ De forma mais específica, pode-se dizer que o usuário médio do software terá
               </section>
 
               <section>
-                <h5>Estrutura de Dados - Usuários<span class="exemplo">EXEMPLO</span></h5>
-                <p>Registro dos usuários do sistema utilizados para login e para o perfil do sistema</p>
+                <h5>Estrutura de Dados - Produtos<span/span></h5>
+                <p>Registro dos produtos do sistema para posterior divisão entre as pessoas cadastradas</p>
                 <pre>
                   {
                     id: "eed55b91-45be-4f2c-81bc-7686135503f9"
@@ -566,6 +590,19 @@ De forma mais específica, pode-se dizer que o usuário médio do software terá
                   }
                 </pre>
               </section>
+              
+              <section>
+                <h5>Estrutura de Dados - Comanda<span/span></h5>
+                <p>Comanda virtual com a divisão dos produtos entre as pessoas cadastradas</p>
+                <pre>
+                  {
+                    id: "eed55b91-45be-4f2c-81bc-7686135503f9"
+                    email: "admin@abc.com"
+                    id: "eed55b91-45be-4f2c-81bc-7686135503f9"
+                    login: "admin"
+                    nome: "Administrador do Sistema"
+                    senha: "123"
+                  }
             </section>
 
             <!-- Módulos e APIs ================= -->
